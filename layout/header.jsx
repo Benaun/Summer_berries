@@ -27,7 +27,7 @@ export default function Header() {
           Summer Berries
         </h2>
         <div className="flex gap-5">
-          <Link href={"https://wa.me/89187922249"} target="_blank">
+          <Link href={"https://wa.me/111111"} target="_blank">
             <FaWhatsapp
               size={30}
               fill={"#910208"}

@@ -27,7 +27,7 @@ export default function Footer() {
                     &copy; 2024 Andrey Kharitonov | All Rights Reserved
                 </h3>
                 <div className="flex gap-5">
-                    <Link href={"https://wa.me/89187922249"} target="_blank">
+                    <Link href={"https://wa.me/11111111"} target="_blank">
                         <FaWhatsapp
                             size={25}
                             fill={"#fff"}
