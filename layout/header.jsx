@@ -1,6 +1,7 @@
 import { Montserrat_Alternates } from "next/font/google";
 import { FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const alternates = Montserrat_Alternates({
   weight: ['600', '700'],
@@ -26,16 +27,20 @@ export default function Header() {
           Summer Berries
         </h2>
         <div className="flex gap-5">
-          <FaWhatsapp
-            size={30}
-            fill={"#910208"}
-            className="hover:fill-rose-500 ease-in duration-300 cursor-pointer"
-          />
-          <FaTelegramPlane
-            size={30}
-            fill={"#910208"}
-            className="hover:fill-rose-500 ease-in duration-300 cursor-pointer"
-          />
+          <Link href={"https://wa.me/89187922249"} target="_blank">
+            <FaWhatsapp
+              size={30}
+              fill={"#910208"}
+              className="hover:fill-rose-500 ease-in duration-300 cursor-pointer"
+            />
+          </Link>
+          <Link href={"https://t.me/lesia555"} target="_blank">
+            <FaTelegramPlane
+              size={30}
+              fill={"#910208"}
+              className="hover:fill-rose-500 ease-in duration-300 cursor-pointer"
+            />
+          </Link>
         </div>
       </section>
     </header>

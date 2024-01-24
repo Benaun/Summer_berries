@@ -6,7 +6,7 @@ export const Head = () => {
 			<title>Summer Berries</title>
 			<meta name="description" content="Summer Berries shop"/>
 			<meta key="viewport" content="width=device-width, initial-scale=1"/>
-			<link href="/favicon.ico" rel="icon" />
+			<link href="/logo.ico" rel="icon" />
 		</NextHead>
 	);
 };
