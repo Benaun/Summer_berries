@@ -1,24 +1,27 @@
 import Image from "next/image";
 
-export default function Item({src, title, price}) {
+export default function Item({ src, title, price }) {
     return (
         <div className="flex flex-col w-1/4 rounded-lg bg-white">
             <Image
                 src={src}
-                width={380}
-                height={318}
+                width={0}
+                height={0}
                 alt="Image"
                 sizes="100vh"
-                className=" w-full h-auto rounded-t-lg mb-4"
+                className=" w-[380px] h-[320px] rounded-t-lg mb-4"
             />
-            <div className="flex flex-col pl-4 pb-10 gap-2">
-                <p className=" text-base text-[#910208] font-normal tracking-[2.5px]">
-                    от {price} РУБ/КГ
-                    <span className="text-2xl">&#8432;</span>
-                </p>
+            <div className="flex flex-col pl-4 pb-6 gap-2">
                 <h3 className=" text-xl text-black font-normal">
                     {title}
                 </h3>
+                <p className=" text-base text-[#910208] font-normal tracking-[2.5px] mb-1">
+                    от {price} РУБ/КГ
+                    <span className="text-2xl">&#8432;</span>
+                </p>
+                <p className=" text-xs text-black font-normal">
+                    <span className="text-md text-[#910208]">*</span> актуальная цена в день заказа
+                </p>
             </div>
         </div>
     )

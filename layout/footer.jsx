@@ -23,15 +23,17 @@ export default function Footer() {
                         className=" w-full h-auto"
                     />
                 </div>
-                <h3 className=" text-base font-normal text-white">
-                    &copy; 2024 Andrey Kharitonov | All Rights Reserved
-                </h3>
+                <Link href={"https://github.com/Benaun"} target="_blank">
+                    <h3 className=" text-base font-normal text-white">
+                        &copy; 2024 Andrey Kharitonov | All Rights Reserved
+                    </h3>
+                </Link>
                 <div className="flex gap-5">
                     <Link href={"https://wa.me/11111111"} target="_blank">
                         <FaWhatsapp
                             size={25}
                             fill={"#fff"}
-                            className="hover:fill-rose-500 ease-in duration-300 cursor-pointer"
+                            className="hover:fill-slate-500 ease-in duration-300 cursor-pointer"
                         />
                     </Link>
                     <Link href={"https://t.me/lesia555"} target="_blank">

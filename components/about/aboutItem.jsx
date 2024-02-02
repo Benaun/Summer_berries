@@ -15,7 +15,7 @@ export default function AboutItem({img, title, text}) {
             </div>
             <div className="flex flex-col text-center">
                 <h3 className=" text-2xl font-medium text-[#362D6C]">
-                    {title}
+                    <strong>{title}</strong>
                 </h3>
                 <p className="text-2xl font-normal text-[#362d6c]">
                     {text}

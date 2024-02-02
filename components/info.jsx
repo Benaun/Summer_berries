@@ -8,9 +8,9 @@ export default function Info() {
                     <p className="text-xl text-black font-normal uppercase">
                         100% натуральные
                     </p>
-                    <h3 className=" text-4xl text-[#362D6C] font-semibold uppercase">
+                    <h1 className=" text-4xl text-[#362D6C] font-semibold uppercase">
                         Свежие фрукты и<br/> ягоды
-                    </h3>
+                    </h1>
                     <p className="text-base text-black font-normal uppercase">
                         Лучшие цены для наших клиентов
                     </p>
