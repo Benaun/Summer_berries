@@ -8,9 +8,9 @@ export default function Geoposition() {
     return (
         <section className=" w-full flex flex-col justify-center bg-[#DFD6E8] pt-10">
             <div className="flex flex-col text-center gap-5 mb-10">
-                <h3 className=" text-4xl font-medium text-[#362D6C]">
+                <h2 className=" text-4xl font-medium text-[#362D6C]">
                     Где мы находимся
-                </h3>
+                </h2>
                 <p className="text-2xl font-normal text-[#362d6c] underline">
                     г. Ставрополь, ул. Комсомольская 35 (рядом магазин 1001 Мелочь)
                 </p>

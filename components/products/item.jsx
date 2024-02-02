@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-export default function Item() {
+export default function Item({src, title, price}) {
     return (
         <div className="flex flex-col w-1/4 rounded-lg bg-white">
             <Image
-                src="/images/item-img.png"
+                src={src}
                 width={380}
                 height={318}
                 alt="Image"
@@ -13,10 +13,11 @@ export default function Item() {
             />
             <div className="flex flex-col pl-4 pb-10 gap-2">
                 <p className=" text-base text-[#910208] font-normal tracking-[2.5px]">
-                    4550 RUB / КГ
+                    от {price} РУБ/КГ
+                    <span className="text-2xl">&#8432;</span>
                 </p>
                 <h3 className=" text-xl text-black font-normal">
-                    Малина сублимированная целая
+                    {title}
                 </h3>
             </div>
         </div>

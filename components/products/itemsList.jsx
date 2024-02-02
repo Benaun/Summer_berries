@@ -1,4 +1,5 @@
 import Item from "./item";
+import { products } from "@/products";
 
 export default function ItemsList() {
     return (
@@ -12,12 +13,14 @@ export default function ItemsList() {
                 </p>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-10">
-                <Item />
-                <Item />
-                <Item />
-                <Item />
-                <Item />
-                <Item />
+                {products?.map((product) =>
+                    <Item
+                        key={product.id}
+                        src={product.img}
+                        price={product.price}
+                        title={product.title}
+                    />
+                )}
             </div>
         </section>
     )
