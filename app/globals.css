@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-main text-base text-secondary bg-[#eee7f3]
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply text-primary;
+  }
+
+  .h1 {
+    @apply font-main text-[50px] xl:text-[75px] leading-none
+  }
+
+  .h2 {
+    @apply text-[36px] leading-[44px] font-semibold
+  }
+
+  .h3 {
+    @apply text-[30px]
+  }
+  .p {
+    @apply text-base mb-4 xl:text-xl text-black font-normal
+  }
+}
