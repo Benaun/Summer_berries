@@ -33,6 +33,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
+    "components/Geoposition.jsx"
   ],
   "exclude": [
     "node_modules"
