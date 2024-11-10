@@ -1,15 +1,17 @@
 import Info from "@/components/Info";
-import About from "@/components/About"
 import Products from "@/components/Products";
-import Geoposition from "@/components/Geoposition"
-import Footer from "@/components/Footer"
+import About from "@/components/About";
+import Geoposition from "@/components/Geoposition";
+import Footer from "@/components/Footer";
 
 export default function Home() {
-  return <>
-    <Info />
-    <Products />
-    <About />
-    <Geoposition />
-    <Footer />
-  </>
+  return (
+    <>
+      <Info />
+      <Products />
+      <About />
+      <Geoposition />
+      <Footer />
+    </>
+  )
 }

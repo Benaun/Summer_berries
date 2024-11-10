@@ -1,6 +1,6 @@
 "use client"
 
-import { YMaps, Placemark, Map } from '@pbe/react-yandex-maps'
+import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps"
 
 export default function Geoposition() {
     const defaultState = {
